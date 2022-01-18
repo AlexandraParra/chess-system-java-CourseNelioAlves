@@ -1,4 +1,4 @@
-package boardPosition;
+package boardGame;
 
 public class Piece {
 	protected Position position;
@@ -7,6 +7,7 @@ public class Piece {
 	
 	public Piece(Board board) {
 		this.board = board;
+		position = null;
 	}
 
 
